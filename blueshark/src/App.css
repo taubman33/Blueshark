@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: 15% auto;
+  /* grid-template-rows: repeat(3, 100px); */
+  grid-gap: 1em;
+}
+
+
+.App-Sidebar {
+  grid-column: 1;
+  background-color: red;
+}
+
+.Main {
+  grid-column: 2; 
+  background-color: green;
+}
+
+
+header, footer {
+  grid-column: 1 / 3;
+}
