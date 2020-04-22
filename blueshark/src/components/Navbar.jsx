@@ -9,13 +9,24 @@ import Contact from './Contact'
     
     return (
         <div className="Navbar"
-        style={{textAlign:"center",
-                color:"orange"}}>
-            <h2> contact home about</h2>
-{/* 
-            <Link>
-            <Contact />
-            </Link> */}
+        style={{display:"flex",
+                flexDirection:"Row",
+                justifyContent:"Space-Evenly"}}>
+       
+            <Link to='/Contact'>
+                <h3> Contact Me</h3>
+            </Link>
+
+            <Link to='/'>
+                <h3> Home</h3>
+            </Link>
+
+            <Link to='/AboutMe'>
+                <h3> About Me</h3>
+            </Link>
+
+
+
         </div>
 
 

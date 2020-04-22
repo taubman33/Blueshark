@@ -1,15 +1,32 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { BrowserRouter as Route, Link } from 'react-router-dom'
 
+import Algebra from './topics/Algebra'
+import Geometry from './topics/Geometry'
+import Quadratics from './topics/Quadratics'
+import Trig from './topics/Trig'
 
-function Main () {
+import Contact from './Contact'
+import About from './About'
+
+import Shark from './assets/shark4.png'
+
+export default function Main () {
+
 return (
-    <div className="Main">
-    <h2> main</h2>
+
+    <div className="Main-container">
+      
+    <div className = "Main">
+    <Route exact path="/Algebra"component={Algebra}/>
+    <Route exact path="/Geometry"component={Geometry}/>
+    <Route exact path="/Quadratics"component={Quadratics}/>
+    <Route exact path="/Trig"component={Trig}/>
+    <Route exact path="/Contact"component={Contact}/>
+    <Route exact path="/About"component={About}/>
+
   </div>
-
-)
-
+  <img src={Shark}/>
+  </div>
+ )
 }
-
-
-export default Main

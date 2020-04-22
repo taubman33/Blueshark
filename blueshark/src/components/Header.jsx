@@ -10,8 +10,11 @@ function Header () {
             padding:"3rem"
             }}>
          
-         <div className="header-text">
-         <h1>Header Blue Shark</h1>
+         <div className="header-text"
+         style={{fontSize:"2rem",
+                letterSpacing:"1rem"
+           }}>
+         <h1> Blue Shark Tutoring</h1>
         </div>
 
     
