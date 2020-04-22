@@ -3,7 +3,7 @@ import { Link, Route }  from 'react-router-dom'
 import Contact from './Contact'
 
 
-{/* <Route exact path="/Contact"component={Contact}/> */}
+
 
  function Navbar () {
     
@@ -11,7 +11,7 @@ import Contact from './Contact'
         <div className="Navbar"
         style={{textAlign:"center",
                 color:"orange"}}>
-            <h2>  nav nav nav</h2>
+            <h2> contact home about</h2>
 {/* 
             <Link>
             <Contact />

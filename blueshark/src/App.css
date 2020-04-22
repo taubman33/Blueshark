@@ -9,11 +9,13 @@
 .App-Sidebar {
   grid-column: 1;
   background-color: red;
+  padding: 2rem;
 }
 
 .Main {
   grid-column: 2; 
   background-color: green;
+  padding: 3rem;
 }
 
 
