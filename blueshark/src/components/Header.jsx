@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Shark from './assets/shark4.png'
 
 function Header () {
     return (
@@ -15,6 +16,7 @@ function Header () {
                 letterSpacing:"1rem"
            }}>
          <h1> Blue Shark Tutoring</h1>
+         <img src={Shark}/>
         </div>
 
     

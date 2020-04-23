@@ -1,9 +1,6 @@
 import React from 'react'
-import  { Link } from 'react-router-dom'
-import Algebra from './topics/Algebra'
-import Geometry from './topics/Geometry'
-import Quadratics from './topics/Quadratics'
-import Trig from './topics/Trig'
+import  {  BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+
 
  function Nav () {
     return (
