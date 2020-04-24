@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Quadratics () {
+export default function Ratios () {
 return (
 
 
@@ -31,6 +31,5 @@ return (
 
     </div>
 )
-}
 
-export default Quadratics
+}

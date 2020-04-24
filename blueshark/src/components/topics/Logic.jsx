@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Quadratics () {
+export default function Logic () {
 return (
 
 
@@ -30,7 +30,7 @@ return (
             </div>
 
     </div>
-)
-}
 
-export default Quadratics
+)
+
+}

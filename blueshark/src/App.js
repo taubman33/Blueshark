@@ -2,42 +2,49 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import './App.css';
 
-import Header from './components/Header'
-import Main from './components/Main'
-import Nav from './components/Nav'
-import Contact from './components/Contact'
-import About from './components/About'
+import Header from './components/Header.jsx'
+import Main from './components/Main.jsx'
+import Nav from './components/Nav.jsx'
+import Contact from './components/Contact.jsx'
+import About from './components/About.jsx'
 
-import Algebra from './components/topics/Algebra'
-import Geometry from './components/topics/Geometry'
-import Quadratics from './components/topics/Quadratics'
-import Trig from './components/topics/Trig'
+import Algebra from './components/topics/Algebra.jsx'
+import Geometry from './components/topics/Geometry.jsx'
+import Logic from './components/topics/Logic.jsx'
+import Quadratics from './components/topics/Quadratics.jsx'
+import Ratios from './components/topics/Ratios.jsx'
+import Stats from './components/topics/Stats.jsx'
+import Trig from './components/topics/Trig.jsx'
 
 
 const routes = [
- {
-   path: "/Contact",
+  
+ { path: "/Contact",
    component: Contact
  },
- {
-  path: "/About",
+ { path: "/About",
   component: About
 },
- {
-  path: "/Algebra",
+ { path: "/Algebra",
   component: Algebra
 },
-{
-  path: "/Trig",
+{ path: "/Trig",
   component: Trig
 },
-{
-  path: "/Quadratics",
+{ path: "/Quadratics",
   component: Quadratics
 },
-{
-  path: "/Geometry",
+{ path: "/Geometry",
   component: Geometry
+},
+{ path: "/Ratios",
+  component: Ratios
+},
+{ path: "/Logic", 
+  component: Logic 
+},
+{ path: "/Stats",
+  component: Stats 
 }
 ];
 
@@ -45,27 +52,34 @@ const routes = [
    render () {
   return (
   
-    <Router >
+  <Router >
 
 
- <div className="grid">
+    <div className="grid"
+      style={{backgroundColor:"orange"}}>
 
 
-      <header className="App-Header">
-        <Header />
-      </header>
+          <header className="App-Header">
+            <Header />
+          </header>
 
 
-      <div className="App-Sidebar">
-        <Nav />
-      </div>
+          <div className="App-Sidebar">
+            <Nav />
+          </div>
 
 
-      <div className="App-Main">
-        <Main />
-      </div>
-      
-
+          <div className="App-Main">
+            <Main>
+            <Route exact path="/Algebra"component={Algebra}/>
+          <Route exact path="/Geometry"component={Geometry}/>
+          <Route exact path="/Quadratics"component={Quadratics}/>
+          <Route exact path="/Trig"component={Trig}/>
+          <Route exact path="/Contact"component={Contact}/>
+          <Route exact path="/About"component={About}/>
+          </Main>
+          </div>
+        
     </div>
 
 </Router>

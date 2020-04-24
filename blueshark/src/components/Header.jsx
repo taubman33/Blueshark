@@ -6,7 +6,6 @@ function Header () {
     return (
     <div className="header"
      style={{textAlign:"center",
-            backgroundColor:"blue",
              color:"white",
             padding:"3rem"
             }}>
@@ -16,7 +15,7 @@ function Header () {
                 letterSpacing:"1rem"
            }}>
          <h1> Blue Shark Tutoring</h1>
-         <img src={Shark}/>
+         {/* <img src={Shark}/> */}
         </div>
 
     
