@@ -10,7 +10,7 @@ return (
                 <h1> Question X</h1>
                         <div className="question">
                             <h2> 
-                                Two sides of a right triangle are 8 and 6, what is the length of the hypotenous?
+                                How much larger is the volume of a basketball with a diameter of 11" than a baseball with a radius of 1.5"?
                             </h2>
                         </div>
                         <div className="answers">

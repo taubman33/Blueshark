@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css';
 
 import Header from './components/Header.jsx'
@@ -18,7 +18,7 @@ import Trig from './components/topics/Trig.jsx'
 
 
 const routes = [
-  
+
  { path: "/Contact",
    component: Contact
  },
@@ -53,16 +53,12 @@ const routes = [
   return (
   
   <Router >
-
-
-    <div className="grid"
-      style={{backgroundColor:"orange"}}>
-
-
-          <header className="App-Header">
+<div className ="App">
+        <header className="App-Header">
             <Header />
           </header>
 
+    <div className="grid">
 
           <div className="App-Sidebar">
             <Nav />
@@ -70,18 +66,13 @@ const routes = [
 
 
           <div className="App-Main">
-            <Main>
-            <Route exact path="/Algebra"component={Algebra}/>
-          <Route exact path="/Geometry"component={Geometry}/>
-          <Route exact path="/Quadratics"component={Quadratics}/>
-          <Route exact path="/Trig"component={Trig}/>
-          <Route exact path="/Contact"component={Contact}/>
-          <Route exact path="/About"component={About}/>
-          </Main>
+            <Main />
+          
+       
           </div>
         
+     </div>
     </div>
-
 </Router>
 
 

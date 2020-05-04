@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { BrowserRouter as Route, Router, Switch, Link } from 'react-router-dom'
+import React from 'react'
+import {  Route } from 'react-router-dom'
 
 import Algebra from './topics/Algebra'
 import Geometry from './topics/Geometry'
@@ -25,7 +25,7 @@ return (
           <Route exact path="/Contact"component={Contact}/>
           <Route exact path="/About"component={About}/>
 
-    <Stats />
+    <Trig />
    </div>
   
   </div>
