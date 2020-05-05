@@ -25,7 +25,6 @@ return (
           <Route exact path="/Contact"component={Contact}/>
           <Route exact path="/About"component={About}/>
 
-    <Trig />
    </div>
   
   </div>

@@ -1,19 +1,16 @@
 import React from 'react'
 
-function About () {
+
+export default function About () {
 return (
 
 
     <div className="About"
     style={{color:"Black"}}>
 
- <h2> I fucking rule
- </h2>
+ <h2> I fucking rule </h2>
 
 
-    </div>
+  </div>
 )
-
 }
-
-export default About

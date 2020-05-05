@@ -1,5 +1,5 @@
 import React from 'react'
-import {  BrowserRouter as Link }  from 'react-router-dom'
+import {  Link }  from 'react-router-dom'
 import Contact from './Contact'
 
  function Navbar () {
@@ -18,7 +18,7 @@ import Contact from './Contact'
                 <h3> Home</h3>
             </Link>
 
-            <Link to='/AboutMe'>
+            <Link to='/About'>
                 <h3> About Me</h3>
             </Link>
 
