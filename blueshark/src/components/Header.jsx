@@ -10,11 +10,11 @@ function Header () {
             }}>
          
          <div className="header-text"
-         style={{fontSize:"2rem",
-                letterSpacing:"1rem"
+         style={{fontSize:"3rem",
+                letterSpacing:"2rem"
            }}>
          <h1> Blue Shark Tutoring</h1>
-         {/* <img src={Shark}/> */}
+      
         </div>
 
     

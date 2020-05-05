@@ -7,8 +7,12 @@ export default function Contact() {
 
         <div className = "contact-page">
 
+  
           <div className="title-container">          
             <h1> Contact Me</h1>
+            </div>
+            <div className="number">
+                <h2> Our phone number is (Xxx) Xxx-Xxxx</h2>
             </div>
         <div className="form-container"
                     style={{width: "90vw", 

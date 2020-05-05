@@ -3,7 +3,7 @@ import React from 'react'
 export default function Trig () {
 return (
     <div className="Math-container">
-            <div className="Math-container">
+           
                         <div className="question-container">
                             <h1> Question 1</h1>
                                     <div className="question">
@@ -65,8 +65,8 @@ return (
                                         
                                          </p>
                                 </div>
-                    
-                                <div className="question-container">
+                                </div>
+       <div className="question-container">
                         <h1> Question 3 </h1>
                                 <div className="question">
                                     <h2> 
@@ -96,10 +96,10 @@ return (
 
                 </div>
 
-            </div>
+        
 
          </div>
-    </div>
+
 )
 
 }

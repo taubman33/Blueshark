@@ -1,11 +1,21 @@
 import React from 'react'
-import  {  BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import  { Link} from 'react-router-dom'
 
 
  function Nav () {
     return (
+        <div className="Nav-Container"
+        style={{backgroundColor:"white"}}>
+        
+        <div className="Nav-aside"
+        style={{textAlign:"center", backgroundColor:"#0551A7"}}>
+
+        <h2> Math Topics</h2>
+
+
+
         <div className="Nav"
-        style={{textAlign:"center"}}>
+            style={{backgroundColor:"#247FE5"}}>
 
 
         <Link to='/Algebra' className='nav-link'> <h3>Algebra</h3> </Link>
@@ -23,13 +33,11 @@ import  {  BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom
         <Link to='/Logic' className='nav-link'> <h3>Logic</h3> </Link>
 
         <Link to='/Other' className='nav-link'> <h3>Other</h3> </Link>
-
-
         
         </div>
 
-
-
+</div>
+        </div>
     )
 
 

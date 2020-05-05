@@ -7,6 +7,7 @@ import Main from './components/Main.jsx'
 import Nav from './components/Nav.jsx'
 import Contact from './components/Contact.jsx'
 import About from './components/About.jsx'
+import Home from './components/Home'
 
 import Algebra from './components/topics/Algebra.jsx'
 import Geometry from './components/topics/Geometry.jsx'
@@ -17,7 +18,11 @@ import Stats from './components/topics/Stats.jsx'
 import Trig from './components/topics/Trig.jsx'
 
 
+
 const routes = [
+  { path: "/",
+  component: Home
+  }, 
 
  { path: "/Contact",
    component: Contact
@@ -60,7 +65,8 @@ const routes = [
 
     <div className="grid">
 
-          <div className="App-Sidebar">
+          <div className="App-Sidebar"
+          style={{backgroundColor:"#FFC090"}}>
             <Nav />
           </div>
 
