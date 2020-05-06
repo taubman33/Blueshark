@@ -96,7 +96,7 @@ return (
 
                 </div>
                 <div className= "answer-container">
-            <h2> answers</h2>
+            <h2> Answers</h2>
     </div>
 
         

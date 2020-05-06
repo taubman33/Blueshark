@@ -14,14 +14,13 @@ export default function Contact() {
             <div className="number">
                 <h2> Our phone number is (Xxx) Xxx-Xxxx</h2>
             </div>
-        <div className="form-container"
+
+
+        {/* <div className="form-container"
                     style={{width: "90vw", 
                     display: "flex", 
                     justifyContent: "center", 
                     paddingTop: "1vh"}}>
-
-
-         
 
         <form id="fs-frm" 
               name="simple-contact-form" 
@@ -47,7 +46,9 @@ export default function Contact() {
         </fieldset>
                         <input type="submit" value="Submit" style={{backgroundColor: "teal", color: "white", borderRadius: "10px"}}/>
         </form>
-        </div>
+        </div> */}
+
+
         </div>
     )
 }
