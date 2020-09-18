@@ -2,8 +2,6 @@ import React from 'react'
 
 function Quadratics () {
 return (
-
-
     <div className="Math-container">
             <div className="question-container">
                 <h1> Question 1</h1>
@@ -58,7 +56,6 @@ return (
                     
             </div>
 
-
             <div className= "answer-container">
                 <h2> Answers</h2>
                 <div className="explanation">
@@ -68,8 +65,8 @@ return (
                             X<sup>2</sup> + x - 42. Note that the answer choices have many similarities; the test expects you to know your math, but they also expect you to be drained, tired, and prone to making careless mistakes. Always double check that you are putting in the right answer! </p>
                         </div>
                 <div className="explanation">
-                        <h2>Question 1</h2>
-                            <p> Choice B is correct <br/>
+                        <h2>Question 2</h2>
+                            <p> Choice C is correct <br/>
                             Using our quadratic formula, we find that the solutions to this equation are -2 and .5 The other solution sets will not work if plugged in.
                             As you may have noticed, the digits in each answer were the same, but + and - were different in each. The test makers expect you to understand the math,
                             they also expect you to get tripped up by details, especially as the test goes on. Expect to see answer choices like this, and stay vigilant to avoid careless errors.

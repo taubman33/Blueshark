@@ -65,8 +65,7 @@ const routes = [
 
     <div className="grid">
 
-          <div className="App-Sidebar"
-          style={{backgroundColor:"#FFC090"}}>
+          <div className="App-Sidebar">
             <Nav />
           </div>
 

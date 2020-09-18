@@ -2,9 +2,6 @@ import React from 'react'
 
 export default function Algebra () {
 return (
-
-
-
     <div className="Math-container">
             <div className="question-container">
                 <h1> Question 1</h1>
@@ -26,14 +23,13 @@ return (
                     
             </div>
 
-
             <div className="question-container">
                 <h1> Question 2</h1>
                         <div className="question">
                          
                         <h2> 
-                             At his side job editing papers, Frank charges $60 for the first 2 hours and $30 per hour after the first 2 hours. 
-                             Which of the following expresses the amount, N, in dollars, Frank charges if it takes him x hours to edit a manuscript, 
+                             At his side job painting fences, Frank charges $60 for the first 2 hours and $30 per hour after the first 2 hours. 
+                             Which of the following expresses the amount, N, in dollars, Frank charges if it takes him x hours to paint a fence, 
                              where x > 2?
 
                             </h2>
@@ -74,8 +70,6 @@ return (
                      
                     
             </div>
-
-
 
             <div className= "answer-container">
             <h2> Answers</h2>

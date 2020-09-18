@@ -3,8 +3,7 @@ import React from 'react'
 export default function Trig () {
 return (
     <div className="Math-container">
-           
-                    
+   
                     <div className="question-container">
                         <h1> Question 2 </h1>
                                 <div className="question">
@@ -38,6 +37,23 @@ return (
                                     </ul>  
                                     </div>
                 </div>
+
+                <div className="question-container">
+                         <h1> Question 3 </h1>
+                                <div className="question">
+                                    <h2> 
+                                   Triangle ABC is a right triangle. </h2>
+                                </div>
+                                <div className="answers">
+                                    <ul>
+                                    <li>a. 20' </li> 
+                                    <li>b. 18' </li> 
+                                    <li>c. 9'</li> 
+                                    <li>d. 6'</li> 
+                                    </ul>  
+                                    </div>
+                </div>
+
 
 
 

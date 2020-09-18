@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function Ratios () {
 return (
-
-
     <div className="Math-container">
             <div className="question-container">
                 <h1> Question 1</h1>

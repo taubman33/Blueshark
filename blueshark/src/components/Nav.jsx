@@ -4,20 +4,24 @@ import  { Link} from 'react-router-dom'
 
  function Nav () {
     return (
-        <div className="Nav-Container"
-        style={{backgroundColor:"white"}}>
+        <div className="Nav-Container">
         
         <div className="Nav-aside"
-        style={{textAlign:"center", backgroundColor:"#0551A7"}}>
+        style={{textAlign:"center", marginTop:'-4rem'}}>
 
-        <h2> Math Topics</h2>
-
-
+        
 
         <div className="Nav"
-            style={{backgroundColor:"#247FE5"}}>
+            style={{backgroundColor:"#FCC69D", paddingBottom:"15rem"}}>
+        <h2>Test Help</h2>
+        <h3> Strategies</h3>
+        <h3> What to study</h3>
+        <h3>Resources</h3>
 
 
+
+
+        <h2> Math Topics</h2>
         <Link to='/Algebra' className='nav-link'> <h3>Algebra</h3> </Link>
 
         <Link to='/Geometry' className='nav-link'> <h3>Geometry</h3> </Link>
@@ -36,7 +40,7 @@ import  { Link} from 'react-router-dom'
         
         </div>
 
-</div>
+        </div>
         </div>
     )
 

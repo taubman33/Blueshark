@@ -12,11 +12,12 @@ export default function Contact() {
             <h1> Contact Me</h1>
             </div>
             <div className="number">
-                <h2> Our phone number is (Xxx) Xxx-Xxxx</h2>
+                <h2> Our phone number is (516) 581-9496</h2>
+                <h2> Or you can send us an email here:</h2>
             </div>
 
 
-        {/* <div className="form-container"
+         <div className="form-container"
                     style={{width: "90vw", 
                     display: "flex", 
                     justifyContent: "center", 
@@ -46,7 +47,7 @@ export default function Contact() {
         </fieldset>
                         <input type="submit" value="Submit" style={{backgroundColor: "teal", color: "white", borderRadius: "10px"}}/>
         </form>
-        </div> */}
+        </div> 
 
 
         </div>

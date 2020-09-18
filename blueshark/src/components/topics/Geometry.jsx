@@ -2,9 +2,6 @@ import React from 'react'
 
 export default function Geometry () {
 return (
-
-
-
     <div className="Math-container">
             <div className="question-container">
                 <h1> Question 1</h1>
@@ -23,7 +20,6 @@ return (
                             </div>   
                  
             </div>
-
 
             <div className="question-container">
                 <h1> Question 2</h1>
@@ -48,8 +44,6 @@ return (
                         
                     
             </div>
-
-
 
             <div className="question-container">
                 <h1> Question 3</h1>
@@ -113,7 +107,5 @@ return (
     </div>
 
     </div>
-
-
 )
 }

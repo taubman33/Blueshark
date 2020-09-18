@@ -24,13 +24,14 @@
 .App-Sidebar {
   grid-column: 1;
   padding: 2rem;
-  background-Color: #FAE0CC;
+  background-color: #0551A7;
+
 }
 
 .Main {
   grid-column: 2; 
   background-color: #FAE0CC;
-  padding: 15rem;
+  padding: 3rem;
   margin-left: -2rem;
   text-align: center;
   height: 100%;
@@ -55,7 +56,8 @@
 }
 
 h3 {
-  color:#0BE8B6;
+  /* color:#0BE8B6; */
+  color:red;
   /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black; */
 }
