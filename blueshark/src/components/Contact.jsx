@@ -45,7 +45,7 @@ export default function Contact() {
                         <textarea rows="8" name="message" id="message" placeholder=" " required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
         </fieldset>
-                        <input type="submit" value="Submit" style={{backgroundColor: "teal", color: "white", borderRadius: "10px"}}/>
+                        <input type="submit" value="Submit" style={{backgroundColor: "blue", color: "white", borderRadius: "10px"}}/>
         </form>
         </div> 
 

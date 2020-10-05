@@ -6,9 +6,15 @@
   grid-gap: 1em;
 }
 
+body {
+
+  background-color: #0551A7;
+}
+
 .answer-container {
   border: 3px solid black;
 }
+
 
 .App-Header {
   width: 100%;
@@ -31,8 +37,6 @@
 .Main {
   grid-column: 2; 
   background-color: #FAE0CC;
-  padding: 3rem;
-  margin-left: -2rem;
   text-align: center;
   height: 100%;
 }

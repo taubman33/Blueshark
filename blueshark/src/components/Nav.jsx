@@ -12,7 +12,7 @@ import  { Link} from 'react-router-dom'
         
 
         <div className="Nav"
-            style={{backgroundColor:"#FCC69D", paddingBottom:"15rem"}}>
+            style={{backgroundColor:"#FAE0CC", paddingBottom:"10rem"}}>
         <h2>Test Help</h2>
         <h3> Strategies</h3>
         <h3> What to study</h3>
