@@ -1,4 +1,5 @@
 import React from 'react'
+import geom1 from '../assets/Geom1.png'
 
 export default function Geometry () {
 return (
@@ -61,10 +62,56 @@ return (
                                <li>d. The two 14" Pizzas will have more pizza, by 120 sq. inches</li> 
                             </ul>
  
-                            </div>   
+                            </div>  
                      
                     
             </div>
+
+
+            <div className="question-container">
+                <h1> Question 4</h1>
+                        <div className="question">
+                            <h2> 
+                                In Parallelogram ABCD (shown below), what is the measure of angle ABC?
+                            </h2>
+                        </div>
+
+                        <img style={{height:"80%"}} src={geom1} alt =""/>
+                        
+                    
+                        <div className="answers">
+                            <ul>
+                               <li> a. 7º </li> 
+                               <li>b.  38º </li> 
+                               <li>c.  68º</li> 
+                               <li>d.  117º</li> 
+                            </ul>
+ 
+                            </div>  
+            </div> 
+
+            <div className="question-container">
+                <h1> Question 5</h1>
+                        <div className="question">
+                            <h2> 
+                            A tea infuser in the shape of a right rectangular pyramid is 7.9 centimeters (cm) tall, and has a base 3.0 cm ling and 1.5 cm wide. To make the best tea, the infuser should be 80 percent filled with tea. What is the volume of tea, in cubic centimeters (cm3), needed to fill the infuser to 80 percent of its capacity? Round to the nearest tenth.
+                            </h2>
+                        </div>
+                        <div className="answers">
+                            <ul>
+                               <li>a. 4.9cm<sup>3</sup> </li> 
+                               <li>b. 9.5cm<sup>3</sup></li> 
+                               <li>c. 11.9cm<sup>3</sup></li> 
+                               <li>d. 28.4cm<sup>3</sup></li> 
+                            </ul>             
+                            </div>   
+                 
+            </div>
+
+
+
+
+            
 
             <div className= "answer-container">
             <h2> Answers</h2>
@@ -103,9 +150,22 @@ return (
                             </p>
                         </div>
 
+                        <div className="explanation">
+                        <h2>Question 4</h2>
+                            <p> Choice C. is correct <br/>
+                            
+                            </p>
+                        </div>
 
-    </div>
+                        <div className="explanation">
+                        <h2>Question 3</h2>
+                            <p> Choice B. is correct <br/>
+                            
+                            </p>
+                        </div>
+            </div>
+            
+            </div>
 
-    </div>
-)
+   )
 }

@@ -58,7 +58,8 @@ return (
                 <h1> Question 3</h1>
                         <div className="question">
                             <h2> 
-                                
+                                In 2013, there were 130 Grizzly Bears in the Colorado range of the Rocky Mountains. 
+                                In 2014, that number increased by 10%, and then in 2015, that number increased by an additional 15%. How many Grizzly Bears were there in 2015? 
                             </h2>
                         </div>
                         <div className="answers">
