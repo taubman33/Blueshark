@@ -66,7 +66,7 @@ return (
                                 </div>
 
 
-                            <img src ={Triangle1} alt=""/>    
+                            <img src ={Triangle1} alt="triangle"/>    
                                 <div className="answers">
                                     <ul>
                                     <li>a. 32.5º </li> 

@@ -16,7 +16,7 @@ return (
                         <div className="answers">
                             <ul>
                                <li>a. </li> 
-                               <li>b. </li> 
+                               <li>b.  </li> 
                                <li>c. </li> 
                                <li>d .</li> 
                             </ul>
@@ -37,7 +37,7 @@ return (
                         <div className="answers">
                             <ul>
                                <li> 20B + 16 C = <br/>
-                                      B+C > 50 
+                                       B+C > 50
                                       </li> 
                                <li> 20C + 16B = <br/>
                                       B+C > 50 
