@@ -29,7 +29,7 @@ return (
             </div>
 
             <div className="question-container">
-                <h1> Question 1</h1>
+                <h1> Question 2</h1>
                         <div className="question">
                             <h2> 
                                 The senior class of Thurgood Marshall Jr. High School has has 300 students. Of these students, 75% are left handed. How many are right handed? 
